@@ -7,5 +7,6 @@ public class Main {
         int [] target;
         target = new int[]{0,1,2,3,4,5,6,7,8,9};
         EnemyNumber enemy = new EnemyNumber(keta,target);
+        Play play = new Play(keta,target);
     }
 }
