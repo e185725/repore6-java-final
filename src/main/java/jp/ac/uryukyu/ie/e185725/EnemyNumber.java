@@ -14,9 +14,9 @@ public class EnemyNumber {
     public  EnemyNumber(int keta, int[] targetArray) {
         shuffle(targetArray);
         for (int i = 0; i < keta; i++) {
-            //System.out.print(targetArray[i]);//play時はコメントアウト
+            System.out.print(targetArray[i]);//play時はコメントアウト
         }
-        //System.out.println("");
+        System.out.println("");
     }
 
     /**
